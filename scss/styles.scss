@@ -1,0 +1,26 @@
+#contact-btn:hover {
+    color: var(--bs-dark);
+}
+
+header {
+    background: url("../images/header-background.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+@media(max-width:1000px) {
+    .hero .image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .hero .text-container {
+        text-align: center;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+}
+
+.black-nav {
+    opacity: 0.7;
+    // box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
